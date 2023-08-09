@@ -2,26 +2,113 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+#button:hover::before {
+  transform: scaleX(1);
+}
+
+#button-content {
+  position: relative;
+  z-index: 1;
+}
+
+#button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+#button-submit {
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+}
+
+#svgGithub:hover {
+  color: #171515;
+  background: white;
+  border-radius: 50%;
+}
+
+#svgLinkedin:hover {
+  color: #0e7caf;
+  background: white;
+  border-radius: 20%;
+}
+
+#svgInstagram:hover {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border-radius: 30%;
+}
+
+#svgTypescript {
+  color: #2F74C0;
+  background: white;
+  border-radius: 10%;
+}
+
+#svgNext {
+  color: black;
+  background: white;
+  border-radius: 100%;
+  border: white 2px solid
+}
+
+#svgReact {
+  background: white;
+  border-radius: 100%;
+}
+
+#svgWhatsApp {
+  color: white;
+  padding: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+	border: 5px solid rgb(15 23 42/1);
+	background-color: #b2bec3;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgb(59 130 246 / 1);
+	border-radius: 10px;
 }
