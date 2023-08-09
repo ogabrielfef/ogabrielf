@@ -9,7 +9,7 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  function sendEmail(e) {
+  function sendEmail(e: { preventDefault: () => void }) {
     e.preventDefault();
 
     const templateParams = {

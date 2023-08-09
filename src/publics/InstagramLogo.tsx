@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-export default function IconInstagram(props) {
+export default function IconInstagram(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       id="svgInstagram"

@@ -1,4 +1,8 @@
-export default function IconGit(props) {
+import { JSX, SVGProps } from 'react';
+
+export default function IconGit(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       fill="currentColor"

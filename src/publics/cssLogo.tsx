@@ -1,4 +1,8 @@
-export default function IconCss3(props) {
+import { JSX, SVGProps } from 'react';
+
+export default function IconCss3(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       fill="none"

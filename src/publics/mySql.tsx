@@ -1,4 +1,8 @@
-export default function IconMysql(props) {
+import { JSX, SVGProps } from 'react';
+
+export default function IconMysql(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       viewBox="0 0 24 24"

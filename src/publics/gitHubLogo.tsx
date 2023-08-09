@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-export default function IconGithub(props) {
+export default function IconGithub(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       id="svgGithub"

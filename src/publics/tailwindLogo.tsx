@@ -1,4 +1,8 @@
-function IconBxlTailwindCss(props) {
+import { JSX, SVGProps } from 'react';
+
+function IconBxlTailwindCss(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       viewBox="0 0 24 24"

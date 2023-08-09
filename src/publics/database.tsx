@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-function IconDatabase(props) {
+function IconDatabase(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       viewBox="0 0 700 1000"

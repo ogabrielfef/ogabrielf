@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-export default function IconTypescript(props) {
+export default function IconTypescript(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       id="svgTypescript"

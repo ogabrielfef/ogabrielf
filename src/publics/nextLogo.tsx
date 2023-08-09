@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-function IconNextjs(props) {
+function IconNextjs(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       fill="none"

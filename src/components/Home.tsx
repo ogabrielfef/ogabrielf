@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import CssLogo from '../publics/cssLogo';
 import GitLogo from '../publics/gitLogo';
 import JestLogo from '../publics/jestLogo';

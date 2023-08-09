@@ -19,7 +19,9 @@ import * as React from 'react';
 
 // export default IconDocumentLayoutLeft;
 
-function IconMonitorDashboard(props) {
+function IconMonitorDashboard(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       viewBox="0 0 24 24"

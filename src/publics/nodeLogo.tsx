@@ -1,4 +1,6 @@
-function IconNodejs(props) {
+import { JSX, SVGProps } from 'react';
+
+function IconNodejs(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 32 32"

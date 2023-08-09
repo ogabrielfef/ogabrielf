@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-function IconCalendar(props) {
+function IconCalendar(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       viewBox="0 0 1024 1024"

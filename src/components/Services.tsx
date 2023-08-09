@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import CodeIcon from '@/publics/code';
 import DatabaseIcon from '@/publics/database';
 import InterfaceIcon from '@/publics/interface';

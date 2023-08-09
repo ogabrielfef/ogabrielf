@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-function IconReact(props) {
+function IconReact(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       id="svgReact"

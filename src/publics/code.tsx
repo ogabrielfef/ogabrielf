@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-function IconCode(props) {
+function IconCode(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       fill="none"

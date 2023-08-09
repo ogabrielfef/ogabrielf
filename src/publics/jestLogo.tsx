@@ -1,4 +1,8 @@
-export default function IconJest(props) {
+import { JSX, SVGProps } from 'react';
+
+export default function IconJest(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       viewBox="0 0 24 24"

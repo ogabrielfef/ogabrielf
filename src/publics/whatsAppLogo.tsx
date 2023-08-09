@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-function IconWhatsapp(props) {
+function IconWhatsapp(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       id="svgWhatsApp"
